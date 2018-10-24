@@ -1,3 +1,5 @@
+require 'sinatra'
+
 get "/" do
   unless params[:nombre]
     "Hola desconocido!"
